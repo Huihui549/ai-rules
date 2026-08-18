@@ -20,7 +20,7 @@
 
 ## 命名与格式约定（"规范"所在）
 
-- 文件名：`kebab-case`，如 `output-format.md`
+- 文件名：`kebab-case`；**字母数字代指简称必须作为文件名前缀**（如 `R1-output-format.md`），见 R7
 - 每个规则文件**必须**带 YAML frontmatter：`name` / `description` / `scope` / `priority`
 - 规则编号：R1、R2……便于在 logs 和对话中引用
 - 模板文件开头标注"复制即用"，规则文件标注"合并进 AGENTS.md 用"
