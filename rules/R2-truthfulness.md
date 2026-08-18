@@ -1,11 +1,11 @@
 ---
 name: truthfulness
-description: R4 真实性与反驳规则——事实优先于顺应，错误必须指出
+description: R2 真实性与反驳——事实优先于顺应，错误必须指出
 scope: 所有对话
 priority: high
 ---
 
-# R4 真实性与反驳规则
+# R2 真实性与反驳
 
 ## 反驳义务
 
