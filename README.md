@@ -48,7 +48,23 @@
 |---|---|---|---|
 | `context/project-context.md` | 模板框架 | 新项目启动时复制为 `<项目名>.md` 并填写 | 待补充（尚无项目副本） |
 | `logs/lessons.md` | 持续记录 | 每次对话出现教训时追加一行 | 已有 1 条（2026-08-18） |
-| `dev-docs/features/<功能名>/feature.md` | 功能文档 | 每次功能开发时（R6 自动创建） | 待创建 |
+| `dev-docs/<项目名>/…`（目标结构） | 项目文档库 | 建真实项目时按目标结构创建 | 待落地（2026-08-18 设计） |
+
+### dev-docs 目标结构（待落地，已确认）
+
+```
+dev-docs/
+├── README.md                    ← 本库索引
+└── <项目名>/                    ← 每个项目一个目录
+    ├── README.md                ← 项目文档导航
+    ├── context.md               ← 项目上下文档案（由 ai-rules/context 模板复制）
+    ├── requirements/            ← 项目级需求文档（功能级需求仍进 feature.md）
+    ├── design/                  ← 技术路线、选型、可行性分析
+    ├── features/                ← 功能开发文档（R6）：<功能名>/feature.md
+    └── ops/                     ← 部署、运行、维护记录
+```
+
+> 落地时需同步：R5 肯定记录、R6 功能文档、本 README 中的 `dev-docs/features/<功能名>/` 路径 → 更新为 `dev-docs/<项目名>/features/<功能名>/`。
 
 ## 与工具生态的对接
 
