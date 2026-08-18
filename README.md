@@ -25,6 +25,26 @@
 - 规则编号：R1、R2……便于在 logs 和对话中引用
 - 模板文件开头标注"复制即用"，规则文件标注"合并进 AGENTS.md 用"
 
+## 规则索引（自动更新）
+
+> 约定：**每次规则新增/修改/合并后，必须同步更新本索引**（R13）。一句话摘要，详见对应文件。
+
+| 编号 | 文件 | 摘要 |
+|---|---|---|
+| R1 | `rules/R1-output-format.md` | 输出格式：结构/长度/精炼/语言/边界 |
+| R2 | `rules/R2-negative-list.md` | 负面清单：禁止的输出内容 |
+| R3 | `rules/R3-workflow.md` | 协作流程：git 前置检查、复述、计划、小步、验证 |
+| R4 | `rules/R4-truthfulness.md` | 真实性与反驳：事实优先于顺应 |
+| R5 | `rules/R5-git-policy.md` | git 跟踪策略：只跟文本，.gitignore 自忽略 |
+| R6 | `rules/R6-self-check.md` | 输出自检：8 项检查清单 |
+| R7 | `rules/R7-naming.md` | 命名：字母数字代指必须作文件名前缀 |
+| R8 | `rules/R8-feature-docs.md` | 功能文档：自动编写/审查/总结/精简 |
+| R9 | `rules/R9-confirmed-records.md` | 肯定内容记录 + 新会话启动读取一次 |
+| R10 | `rules/R10-context-cost.md` | 上下文与成本：规则完整优先，省 token |
+| R11 | `rules/R11-intent-boundary.md` | 意图边界：咨询只建议，修改需明确授权 |
+| R12 | `rules/R12-rule-accumulation.md` | 规则自动积累：有用通用限制自动入库 |
+| R13 | `rules/R13-conflict-resolution.md` | 整合与冲突裁决：合并检查、优先级裁决 |
+
 ## 与工具生态的对接
 
 - **AGENTS.md / CLAUDE.md**：把 `context/` + `rules/` 的成熟内容合并生成，放项目根目录，支持自动加载的工具（Claude Code / Cursor 等）会每次自动读取——省去手动粘贴。
