@@ -20,7 +20,7 @@ priority: high
 ## 归置判断
 
 - **通用**（跨项目/跨功能适用）→ 写入 `rules/`：新建 `R<编号>-<kebab>.md` 或并入现有规则
-- **专用**（仅当前项目/功能有效）→ 写入 `dev-docs/features/<功能名>/feature.md`，不入 ai-rules
+- **专用**（仅当前项目/功能有效）→ 写入 `dev-docs/<项目名>/features/<功能名>/feature.md`，不入 ai-rules
 
 ## 整合检查（防碎片化）
 

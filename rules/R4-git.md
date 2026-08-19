@@ -25,6 +25,17 @@ priority: high
 - `.gitignore` 本身**不跟踪**（配置类文件不属于"给人看的文件"）
 - 已知忽略清单：编译产物（build/dist/`*.exe` 等）、缓存（`__pycache__`/`*.log` 等）、依赖目录（`node_modules` 等）
 
+## 仓库边界确认
+
+- 修改文件前确认当前工作区归属的 git 仓库边界，只在当前仓库范围内修改
+- 所有改动必须能在 `git status` 中可见；不在当前 git 仓库内的文件一律不碰
+- 避免擅自修改 SDK/父仓库下的文件，除非用户明确授权并知晓跨仓库影响
+
+## 提交规范
+
+- 遵循 Conventional Commits：`<type>: <简短中文描述>`，≤ 72 字符
+- type 示例：`feat`（新功能）/ `fix`（修复）/ `docs`（文档）/ `refactor`（重构）/ `chore`（杂务）/ `sync`（同步）
+
 ## 已知代价
 
 - `.gitignore` 不随仓库分发：克隆或迁移环境后需重建忽略规则
