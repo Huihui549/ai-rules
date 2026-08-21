@@ -1,7 +1,7 @@
 ---
 name: project-context
 description: 项目上下文模板——技术栈、芯片、工具链、硬性约束、验收清单
-scope: 每个项目一份（复制为新文件，如 apple-evolution.md）
+scope: 每个项目一份（复制为新文件，如 <项目名>.md）
 priority: high
 ---
 
