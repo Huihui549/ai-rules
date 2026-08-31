@@ -35,7 +35,7 @@
 | R1 | `rules/R1-output.md` | 输出规则：分块结构/精炼/负面清单/模糊澄清/自检 |
 | R2 | `rules/R2-truthfulness.md` | 真实性与反驳：事实优先于顺应 |
 | R3 | `rules/R3-workflow.md` | 协作修改流程：意图边界、复述、计划、小步、验证 |
-| R4 | `rules/R4-git.md` | git 管理：修改前置检查、跟踪范围、忽略策略、用户确认后才提交 |
+| R4 | `rules/R4-git.md` | git 管理：修改前置检查、跟踪范围、忽略策略、AI 不执行任何 git 操作（2026-08-27 用户定稿） |
 | R5 | `rules/R5-session-memory.md` | 会话与记忆：新会话读取、肯定记录、压缩保规则、成本 |
 | R6 | `rules/R6-feature-docs.md` | 功能文档：自动编写/审查/总结/精简 |
 | R7 | `rules/R7-rule-maintenance.md` | 规则维护：命名前缀、自动积累、整合、冲突裁决 |
