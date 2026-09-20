@@ -13,6 +13,20 @@ priority: high
 - 功能开发文档统一存放：`dev-docs/<项目名>/features/<功能名>/`（工作区根，与 ai-rules 平级；每个项目一个目录）
 - git 保障：功能文档所在目录必须位于 git 仓库内（见 R4）
 
+## dev-docs 目标结构（通用约定）
+
+```
+dev-docs/
+├── README.md                 ← 文档库索引
+└── <项目名>/
+    ├── README.md             ← 项目文档导航
+    ├── context.md            ← 项目上下文（由 ai-rules/context 模板复制）
+    ├── requirements/         ← 项目级需求（功能级需求仍进 feature.md）
+    ├── design/               ← 技术路线、选型、可行性分析
+    ├── features/             ← 功能开发文档（本规则）：<功能名>/feature.md
+    └── ops/                  ← 部署、运行、维护记录
+```
+
 ## 自动流程（无需用户提醒）
 
 每开发一个功能，自动执行：
