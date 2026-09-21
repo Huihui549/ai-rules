@@ -31,12 +31,12 @@
 
 | 编号 | 文件 | 摘要 |
 |---|---|---|
-| R1 | `rules/R1-output.md` | 输出：结构骨架/默认框架+按需展开/「存在问题建议修复」/问题分级与自治/自检与审查 |
+| R1 | `rules/R1-output.md` | 输出：结构骨架/默认框架+按需展开/「存在问题建议修复」/问题分级与自治/语气档位与直接陈述/自检与审查 |
 | R2 | `rules/R2-truthfulness.md` | 真实性与反驳：事实优先，错误必指出，数据须实测 |
 | R3 | `rules/R3-workflow.md` | 协作流程：意图边界/五步/批量逐条/注释保护 |
 | R4 | `rules/R4-git.md` | git：前置检查/只读白名单/AI 不做任何写操作 |
 | R5 | `rules/R5-session-memory.md` | 会话：新会话读一次/渐进式披露/肯定记录/收尾回填/压缩保规则 |
-| R6 | `rules/R6-feature-docs.md` | 项目文档体系：AGENTS.md 分工/功能文档五件套/日志可重放/写法规范 |
+| R6 | `rules/R6-feature-docs.md` | 项目文档体系：项目级/功能级两级结构、AI 自动创建与维护、日志可重放、写法规范 |
 | R7 | `rules/R7-rule-maintenance.md` | 规则维护：命名/归置判断/升格门槛/单一事实源/冲突裁决/索引同步 |
 | R8 | `rules/R8-code-hygiene.md` | 代码卫生：改动边界/删除优先/YAGNI/过度抽象/诡代码/性能/P0–P3 |
 | R9 | `rules/R9-command-safety.md` | 命令安全：破坏性命令先说明后果、获批准才执行 |
